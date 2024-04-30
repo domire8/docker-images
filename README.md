@@ -1,6 +1,6 @@
 # docker_images
 
-![Build and Push ROS and ROS2 images](https://github.com/aica-technology/docker-images/actions/workflows/build-push.yml/badge.svg)
+![Build and Push ROS and ROS2 images](https://github.com/domire8/docker-images/actions/workflows/build-push.yml/badge.svg)
 
 This repository is used to produce pre-configured and versioned Docker images with ROS 2 and `ros2_control` packages and
 other dependencies pre-installed. The images can be used as workspaces for development containers or as base images for
