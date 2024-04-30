@@ -63,7 +63,7 @@ jobs:
       - uses: aica-technology/.github/.github/actions/ghcr-ensure-prefix@v0.6.0
         id: ensure-image
         with:
-          image_name: aica-technology/ros2-ws
+          image_name: domire8/ros2-ws
 
       - id: tags
         run: |
@@ -92,8 +92,6 @@ jobs:
         arch: [amd64, arm64]
         include:
           - image: ubuntu-latest
-          - image: buildjet-2vcpu-ubuntu-2204-arm
-            arch: arm64
 
     runs-on: ${{ matrix.image }}
     name: Build and publish (${{ matrix.arch }})
